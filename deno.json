@@ -1,6 +1,12 @@
 {
   "imports": {
-    "hono": "jsr:@hono/hono@^4.7.2"
+    "@tailwindcss/postcss": "npm:@tailwindcss/postcss@^4.0.9",
+    "d3": "npm:d3@^7.9.0",
+    "hono": "jsr:@hono/hono@^4.7.2",
+    "postcss": "npm:postcss@^8.5.3",
+    "react": "npm:react@^19.0.0",
+    "shadcn": "npm:shadcn@^2.4.0-canary.9",
+    "tailwindcss": "npm:tailwindcss@^4.0.9"
   },
   "tasks": {
     "start": "deno run --allow-net main.tsx"
